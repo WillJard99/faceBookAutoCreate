@@ -16,13 +16,13 @@ yarn
 
 #### 配置项目需要的 key
 
-<!-- 验证码过滤 -->
+验证码过滤
 const captchaKey = "44787a5b50f*******";
-<!-- 短信接码的key -->
+短信接码的key
 const smsKey = "fd37ecf662e604c9cA********"";
-<!-- 短信接码的项目 fb是facebook 其他的可在网站上查询 -->
+短信接码的项目 fb是facebook 其他的可在网站上查询
 const smsType = "fb";
-<!-- 代理 谷歌上很多 -->
+代理 谷歌上很多
 const proxy_url = "cb0b710eb1f433ca.********";
 const proxy_accout = "wjh9612-z********"";
 const proxy_password = "********"";
@@ -30,10 +30,10 @@ const proxy_password = "********"";
 
 ## 如何使用
 
-<!-- 自动注册 可在脚本中设置 实例个数 执行次数 -->
+自动注册 可在脚本中设置 实例个数 执行次数
 node createFaceBook.js 
 
-<!-- 自动点赞 关注-->
+自动点赞 关注
 node active.js 
 
 ## 其它问题
