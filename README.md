@@ -2,8 +2,6 @@
 
 ## 本项目用的是 sms-activate.io 的短信接码网站.
 
-## 本项目用的是 2captcha.com 的 验证码过滤.
-
 > 假如此轮子对你有帮助,请顺手 star 一下吧.o(_￣︶￣_)o
 
 ## 1.安装使用! 下载依赖
@@ -17,8 +15,8 @@ yarn
 #### 配置项目需要的 key
 
 ```javascript
-// 验证码过滤
-const captchaKey = "44787a5b50f*******";
+// 2captcha验证码过滤 暂时未用到
+const captchaKey = "";
 // 短信接码的key
 const smsKey = "fd37ecf662e604c9cA********"";
 // 短信接码的项目 fb是facebook 其他的可在网站上查询
