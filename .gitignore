@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+test.js
+info/activeAccountFailList.txt
+info/activeAccountList.txt
+info/outlook.txt
+account.txt
+error.txt
+cookie.txt
+accounts
+handleCookie.txt
+# misc
+.DS_Store
